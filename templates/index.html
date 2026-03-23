@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Payroll System</title>
+</head>
+<body>
+
+<h2>Add Employee</h2>
+<form action="/add" method="post">
+    Name: <input type="text" name="name"><br><br>
+    Salary: <input type="text" name="salary"><br><br>
+    <button type="submit">Submit</button>
+</form>
+
+<br>
+<a href="/view">View Records</a>
+
+<h3>Ask AI</h3>
+<form action="/chat" method="post">
+    <input type="text" name="query">
+    <button type="submit">Ask</button>
+</form>
+
+</body>
+</html>
